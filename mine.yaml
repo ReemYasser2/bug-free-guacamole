@@ -1,0 +1,8 @@
+name: my_flutter_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6

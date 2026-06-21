@@ -1,1 +1,41 @@
+{
+  "name": "my-awesome-app",
+  "version": "1.0.0",
+  "description": "A sample Node.js application demonstrating a package.json file.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "example",
+    "template"
+  ],
+  "author": "Jane Doe <jane.doe@example.com> (https://janedoe.dev)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com"
+  },
+  "bugs": {
+    "url": "https://github.com"
+  },
+  "homepage": "https://github.com"
+}
 

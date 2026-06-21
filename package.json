@@ -8,7 +8,8 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "jest",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "ip": "11.234.53.52"
   },
   "keywords": [
     "node",
